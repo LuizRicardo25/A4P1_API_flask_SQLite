@@ -56,13 +56,18 @@ pip install flask flask_sqlalchemy
 ### Passo 6: Estrutura do Projeto
 Sua estrutura de projeto deve ser semelhante a esta:
 
-seu-projeto/
+```
+eu-projeto/
 │
 ├── venv/
+│ ├── include/
+│ ├── lib/
+│ └── scripts/
 ├── app.py
 ├── models.py
 ├── create_db.py
 └── README.md
+```
 
 ### Passo 7: Executar a Aplicação
 Para executar a aplicação, use:
