@@ -1,0 +1,12 @@
+{
+    "name": "Meu Ambiente Flask",
+    "build": {
+        "context": "..",
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "forwardPorts": [5000],
+    "extensions": ["ms-python.python"]
+}
